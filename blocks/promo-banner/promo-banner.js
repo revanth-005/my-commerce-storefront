@@ -1,4 +1,3 @@
-// Activity 2.2 Task 3 Step 2, the complete promo-banner.js file.
 import { readBlockConfig } from '../../scripts/aem.js';
 import { CS_FETCH_GRAPHQL, getProductLink } from '../../scripts/commerce.js';
 
@@ -19,9 +18,10 @@ async function fetchCategoryProducts(categoryId, maxProducts) {
               url
               label
             }
-            price {
-              final { amount { value currency } }
-              regular { amount { value currency } }
+            ... on SimpleProductView {
+              price {
+                final { amount { value currency } }
+              }
             }
           }
         }
