@@ -1,7 +1,7 @@
 import { readBlockConfig } from '../../scripts/aem.js';
 
 const MESH_ENDPOINT =
-  'https://edge-sandbox-graph.adobe.io/api/<mesh-id>/graphql';
+  'https://edge-sandbox-graph.adobe.io/api/1d2e79f7-33ed-471d-8fa0-18e6019d578b/graphql';
 
 function formatMoneyAmount (amount) {
   if (!amount || typeof amount.value !== 'number') return '';

@@ -158,3 +158,18 @@
     margin-left: 0;
     color: #444;
 }
+
+.product-details__badges {
+    display: flex;
+    gap: 8px;
+    margin: 12px 0;
+}
+
+.product-details__badges .badge {
+    padding: 4px 8px;
+    border-radius: 16px;
+    background: #555555;
+    color: white;
+    font-size: 12px;
+    font-weight: 600;
+}

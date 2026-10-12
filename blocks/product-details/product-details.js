@@ -107,6 +107,10 @@ export default async function decorate(block) {
       </div>
       <div class="product-details__right-column">
         <div class="product-details__header"></div>
+        <div class="product-details__badges">
+        <span class="badge">Best Seller</span>
+        <span class="badge">OEM Certified</span>
+      </div>
         <div class="product-details__tagline pdp-tagline" aria-label="Promotional offer"></div>
         <div class="product-details__stock" role="status" aria-live="polite"></div>
         <div class="product-details__custom-attribute"></div>
